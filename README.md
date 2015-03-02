@@ -1,5 +1,7 @@
 Utilities for Character Extraction for SE410
 -----------
+###Note: The Genderize.io API is free, but limited at 1000 names/day. When developing your system, you may use a small file for testing. 
+
 The Java class NERFromNovel.java extracts characters from a text file and returns a list of Person objects. Each Person object has three attributes: *firstName*, *lastName*, and *gender*.
 
 
